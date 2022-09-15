@@ -1,0 +1,22 @@
+{
+    "name": "dell/www",
+    "description": "Proof Proyect with php and composer",
+    "type": "proyect",
+    "autoload": {
+        "psr-4": {
+            "Model\\": "./models",
+            "Controller\\": "./controllers",
+            "MVC\\": "./"
+        }
+    },
+    "authors": [
+        {
+            "name": "Urias-Flores",
+            "email": "osoriourias@gmail.com"
+        }
+    ],
+    "require": {
+        "intervention/image": "^2.7",
+        "phpmailer/phpmailer": "^6.6"
+    }
+}

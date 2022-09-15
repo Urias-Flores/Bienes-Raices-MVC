@@ -1,0 +1,11 @@
+.contenido-nosotros{
+    @include tablet{
+        @include grid(2, 2rem);
+    }
+}
+
+.title-nosotros{
+    font-weight: 700;
+    font-size: 2rem;
+    color: $black;
+}
